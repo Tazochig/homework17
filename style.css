@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+body{
+    background-color: rgba(20, 20, 20, 1);
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1,440px;
+    height: 960px;    
+}
+.jessica{
+    width: 384px;
+    height: 611px;
+    max-width: 384px;
+    padding: var(--spacing500);
+    gap: var(--spacing300);
+    border-radius: 12px; 
+    background-color: rgba(31, 31, 31, 1);   
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.saxeli{ 
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+    width: 376px;
+    height: 3px;    
+}
+.adgili{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(196, 248, 42, 1);
+    width: 376px;
+    height: 21px;    
+}
+.profesia{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: white;    
+}
+.divi{
+    width:300px;
+    height:45px;
+    padding: var(--spacing150);
+    gap: var(--spacing100);
+    border-radius: 8px;
+    background-color: rgba(51, 51, 51, 1);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: left;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.divebi{
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.tipi{
+    display: flex;
+    flex-direction: column;
+}
+button:hover {
+    background-color: rgba(196, 248, 42, 1);
+    cursor: pointer;
+    transition-duration: 500ms;
+    color: rgba(51, 51, 51, 1);
+  }
+ 
+  @media (max-width: 777px){
+    .container{
+        width:  768px;
+        height: 1,024px;        
+    }
+    .jessica{
+        width:456px;
+        height:611px;
+        max-width: 456px;        
+    }
+    .divi{
+        width:376px;
+        height:45px;        
+    }
+  }
+  @media (max-width: 377px){
+    .container{
+        width:375px;
+        height:812px;        
+    }
+    .jessica{
+        width:327px;
+        height:579px;        
+    }
+    .divi{
+        width:279px;
+        height:45px;        
+    }
+    .profesia{
+        height: 30px;
+    }
+  }
